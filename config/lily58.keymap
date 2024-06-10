@@ -101,7 +101,7 @@ ZMK_UNICODE_SINGLE(fr_accent_cir, N0, N0, N5, E) // ^
 &kp TAB           &as Q         &as W   &as E     &as R     &as T                           &as Y   &as U          &as I            &as O    &as P      &mo 3
 &kp LEFT_SHIFT    &as A         &as S   &as D     &as F     &as G                           &as H   &as J          &as K            &as L    &as SEMI   &as SQT
 &kp LEFT_CONTROL  &as Z         &as X   &as C     &as V     &as B   &as MINUS    &as EQUAL  &as N   &as M          &as COMMA        &as DOT  &as GRAVE  &as BACKSLASH
-                                        &backtik  &kp LGUI  &mo 2   &kp SPACE    &kp RET    &mo 1   &kp RIGHT_ALT  &kp PRINTSCREEN
+                                        &kp backtik  &kp LGUI  &mo 2   &kp SPACE    &kp RET    &mo 1   &kp RIGHT_ALT  &kp PRINTSCREEN
             >;
         };
 
