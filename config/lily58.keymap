@@ -15,7 +15,7 @@
 /* French letters */
 ZMK_UNICODE_PAIR(fr_ae,        N0, N0, E, N6,   N0, N0, C, N6)  // æ/Æ
 ZMK_UNICODE_PAIR(fr_oe,        N0, N1, N5, N3,  N0, N1, N5, N2) // œ/Œ
-ZMK_UNICODE_PAIR(fr_a_gr,      N0, N0, E, N0,   N0, N0, C, N0)  // à/À
+ZMK_UNICODE_PAIR(Fr_a_gr,      N0, N0, E, N0,   N0, N0, C, N0)  // à/À
 ZMK_UNICODE_PAIR(fr_a_cf,      N0, N0, E, N2,   N0, N0, C, N2)  // â/Â
 ZMK_UNICODE_PAIR(fr_c_cd,      N0, N0, E, N7,   N0, N0, C, N7)  // ç/Ç
 ZMK_UNICODE_PAIR(fr_e_gr,      N0, N0, E, N8,   N0, N0, C, N8)  // è/È
@@ -117,7 +117,7 @@ ZMK_UNICODE_SINGLE(fr_accent_cir, N0, N0, N5, E) // ^
             bindings = <
 &trans  &kp F1         &kp F2  &kp F3             &kp F4  &kp F5                    &kp F6  &kp F7            &kp F8  &kp F9  &kp F10  &kp F11
 &trans  &trans         &trans  &as SLASH          &trans  &trans                    &trans  &trans            &trans  &trans  &trans   &kp F12
-&trans  &as fr_a_gr  &trans  &as SINGLE_QUOTE   &trans  &trans                    &trans  &as LEFT_BRACKET  &trans  &trans  &trans   &trans
+&trans  &fr_a_gr  &trans  &as SINGLE_QUOTE   &trans  &trans                    &trans  &as LEFT_BRACKET  &trans  &trans  &trans   &trans
 &trans  &trans         &trans  &kp RIGHT_BRACKET  &trans  &trans  &trans    &trans  &trans  &trans            &trans  &trans  &trans   &as PIPE
                                &kp TILDE          &trans  &trans  &trans    &trans  &trans  &trans            &trans
             >;
