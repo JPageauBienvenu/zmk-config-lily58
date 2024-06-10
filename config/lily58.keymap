@@ -13,35 +13,35 @@
 // French.dsti
 // From https://github.com/JeffDess/zmk-config/blob/main/chars/french.dtsi
 /* French letters */
-ZMK_UNICODE_PAIR(fr_ae,        N0, N0, E, N6,   N0, N0, C, N6)  // æ/Æ
-ZMK_UNICODE_PAIR(fr_oe,        N0, N1, N5, N3,  N0, N1, N5, N2) // œ/Œ
-ZMK_UNICODE_PAIR(fr_a_gr,      N0, N0, E, N0,   N0, N0, C, N0)  // à/À
-ZMK_UNICODE_PAIR(fr_a_cf,      N0, N0, E, N2,   N0, N0, C, N2)  // â/Â
-ZMK_UNICODE_PAIR(fr_c_cd,      N0, N0, E, N7,   N0, N0, C, N7)  // ç/Ç
-ZMK_UNICODE_PAIR(fr_e_gr,      N0, N0, E, N8,   N0, N0, C, N8)  // è/È
-ZMK_UNICODE_PAIR(fr_e_ag,      N0, N0, E, N9,   N0, N0, C, N9)  // é/É
-ZMK_UNICODE_PAIR(fr_e_cf,      N0, N0, E, A,    N0, N0, C, A)   // ê/Ê
-ZMK_UNICODE_PAIR(fr_e_di,      N0, N0, E, B,    N0, N0, C, B)   // ë/Ë
-ZMK_UNICODE_PAIR(fr_i_cf,      N0, N0, E, E,    N0, N0, C, E)   // î/Î
-ZMK_UNICODE_PAIR(fr_i_di,      N0, N0, E, F,    N0, N0, C, F)   // ï/Ï
-ZMK_UNICODE_PAIR(fr_o_cf,      N0, N0, F, N4,   N0, N0, D, N4)  // ô/Ô
-ZMK_UNICODE_PAIR(fr_u_gr,      N0, N0, F, N9,   N0, N0, D, N9)  // ù/Ù
-ZMK_UNICODE_PAIR(fr_u_cf,      N0, N0, F, B,    N0, N0, D, B)   // û/Û
-ZMK_UNICODE_PAIR(fr_u_di,      N0, N0, F, C,    N0, N0, D, C)   // ü/Ü
-ZMK_UNICODE_PAIR(fr_y_di,      N0, N0, F, F,    N0, N1, N7, N8) // ÿ/Ÿ
+ZMK_UNICODE_PAIR(fr_ae,        FR_0, FR_0, E, FR_6,   FR_0, FR_0, C, FR_6)  // æ/Æ
+ZMK_UNICODE_PAIR(fr_oe,        FR_0, FR_1, FR_5, FR_3,  FR_0, FR_1, FR_5, FR_2) // œ/Œ
+ZMK_UNICODE_PAIR(fr_a_gr,      FR_0, FR_0, E, FR_0,   FR_0, FR_0, C, FR_0)  // à/À
+ZMK_UNICODE_PAIR(fr_a_cf,      FR_0, FR_0, E, FR_2,   FR_0, FR_0, C, FR_2)  // â/Â
+ZMK_UNICODE_PAIR(fr_c_cd,      FR_0, FR_0, E, FR_7,   FR_0, FR_0, C, FR_7)  // ç/Ç
+ZMK_UNICODE_PAIR(fr_e_gr,      FR_0, FR_0, E, FR_8,   FR_0, FR_0, C, FR_8)  // è/È
+ZMK_UNICODE_PAIR(fr_e_ag,      FR_0, FR_0, E, FR_9,   FR_0, FR_0, C, FR_9)  // é/É
+ZMK_UNICODE_PAIR(fr_e_cf,      FR_0, FR_0, E, A,    FR_0, FR_0, C, A)   // ê/Ê
+ZMK_UNICODE_PAIR(fr_e_di,      FR_0, FR_0, E, B,    FR_0, FR_0, C, B)   // ë/Ë
+ZMK_UNICODE_PAIR(fr_i_cf,      FR_0, FR_0, E, E,    FR_0, FR_0, C, E)   // î/Î
+ZMK_UNICODE_PAIR(fr_i_di,      FR_0, FR_0, E, F,    FR_0, FR_0, C, F)   // ï/Ï
+ZMK_UNICODE_PAIR(fr_o_cf,      FR_0, FR_0, F, FR_4,   FR_0, FR_0, D, FR_4)  // ô/Ô
+ZMK_UNICODE_PAIR(fr_u_gr,      FR_0, FR_0, F, FR_9,   FR_0, FR_0, D, FR_9)  // ù/Ù
+ZMK_UNICODE_PAIR(fr_u_cf,      FR_0, FR_0, F, B,    FR_0, FR_0, D, B)   // û/Û
+ZMK_UNICODE_PAIR(fr_u_di,      FR_0, FR_0, F, C,    FR_0, FR_0, D, C)   // ü/Ü
+ZMK_UNICODE_PAIR(fr_y_di,      FR_0, FR_0, F, F,    FR_0, FR_1, FR_7, FR_8) // ÿ/Ÿ
 
 /* French symbols */
-ZMK_UNICODE_PAIR(fr_backquote_tilde, N0, N0, N6, N0, 	N0, N0, N7, E) // `/~
-ZMK_UNICODE_SINGLE(fr_pipe,  	N0, N0, N7,    C) // |
-ZMK_UNICODE_SINGLE(fr_bkSla,	  N0, N0, N5,    C) // \
-ZMK_UNICODE_SINGLE(fr_slash,	  N0, N0, N2,    F) // /
-ZMK_UNICODE_SINGLE(fr_inf,	  	N0, N0, N3,    C) // <
-ZMK_UNICODE_SINGLE(fr_sup,		  N0, N0, N3,    E) // >
-ZMK_UNICODE_SINGLE(fr_left_curl, N0, N0, N7, B) // Left Curly Bracket
-ZMK_UNICODE_SINGLE(fr_right_curl, N0, N0, N7, D) // Right Curly Bracket
-ZMK_UNICODE_SINGLE(fr_left_square, N0, N0, N5, B) // Left Square Bracket
-ZMK_UNICODE_SINGLE(fr_right_square, N0, N0, N5, D) // Right Square Bracket
-ZMK_UNICODE_SINGLE(fr_accent_cir, N0, N0, N5, E) // ^
+ZMK_UNICODE_PAIR(fr_backquote_tilde, FR_0, FR_0, FR_6, FR_0, 	FR_0, FR_0, FR_7, E) // `/~
+ZMK_UNICODE_SINGLE(fr_pipe,  	FR_0, FR_0, FR_7,    C) // |
+ZMK_UNICODE_SINGLE(fr_bkSla,	  FR_0, FR_0, FR_5,    C) // \
+ZMK_UNICODE_SINGLE(fr_slash,	  FR_0, FR_0, FR_2,    F) // /
+ZMK_UNICODE_SINGLE(fr_inf,	  	FR_0, FR_0, FR_3,    C) // <
+ZMK_UNICODE_SINGLE(fr_sup,		  FR_0, FR_0, FR_3,    E) // >
+ZMK_UNICODE_SINGLE(fr_left_curl, FR_0, FR_0, FR_7, B) // Left Curly Bracket
+ZMK_UNICODE_SINGLE(fr_right_curl, FR_0, FR_0, FR_7, D) // Right Curly Bracket
+ZMK_UNICODE_SINGLE(fr_left_square, FR_0, FR_0, FR_5, B) // Left Square Bracket
+ZMK_UNICODE_SINGLE(fr_right_square, FR_0, FR_0, FR_5, D) // Right Square Bracket
+ZMK_UNICODE_SINGLE(fr_accent_cir, FR_0, FR_0, FR_5, E) // ^
 
 / {
     behaviors {
@@ -97,7 +97,7 @@ ZMK_UNICODE_SINGLE(fr_accent_cir, N0, N0, N5, E) // ^
 
             display-name = "Base";
             bindings = <
-&kp ESC           &as NUMBER_1  &as N2  &as N3    &as N4    &as N5                          &as N6  &as N7         &as N8           &as N9   &as N0     &kp BACKSPACE
+&kp ESC           &as NUMBER_1  &as FR_2  &as FR_3    &as FR_4    &as FR_5                          &as FR_6  &as FR_7         &as FR_8           &as FR_9   &as FR_0     &kp BACKSPACE
 &kp TAB           &as Q         &as W   &as E     &as R     &as T                           &as Y   &as U          &as I            &as O    &as P      &mo 3
 &kp LEFT_SHIFT    &as A         &as S   &as D     &as F     &as G                           &as H   &as J          &as K            &as L    &as SEMI   &as SQT
 &kp LEFT_CONTROL  &as Z         &as X   &as C     &as V     &as B   &as MINUS    &as EQUAL  &as N   &as M          &as COMMA        &as DOT  &as GRAVE  &as BACKSLASH
